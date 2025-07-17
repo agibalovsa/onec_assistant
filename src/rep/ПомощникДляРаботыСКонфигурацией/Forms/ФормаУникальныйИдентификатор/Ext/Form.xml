@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<SaveWindowSettings>false</SaveWindowSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаОпределитьСсылку" id="7">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОпределитьСсылку</CommandName>
+				<ExtendedTooltip name="ФормаОпределитьСсылкуРасширеннаяПодсказка" id="8"/>
+			</Button>
+			<Button name="ФормаОпределитьУникальныйИдентификатор" id="9">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОпределитьУникальныйИдентификатор</CommandName>
+				<ExtendedTooltip name="ФормаОпределитьУникальныйИдентификаторРасширеннаяПодсказка" id="10"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<LabelField name="ПолноеИмяОбъекта" id="11">
+			<DataPath>ПолноеИмяОбъекта</DataPath>
+			<ContextMenu name="ПолноеИмяОбъектаКонтекстноеМеню" id="12"/>
+			<ExtendedTooltip name="ПолноеИмяОбъектаРасширеннаяПодсказка" id="13"/>
+		</LabelField>
+		<InputField name="ЛюбаяСсылка" id="1">
+			<DataPath>ЛюбаяСсылка</DataPath>
+			<ClearButton>true</ClearButton>
+			<ChooseType>false</ChooseType>
+			<ContextMenu name="ЛюбаяСсылкаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ЛюбаяСсылкаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="УникальныйИдентификатор" id="4">
+			<DataPath>УникальныйИдентификаторОбъекта</DataPath>
+			<ClearButton>true</ClearButton>
+			<ContextMenu name="УникальныйИдентификаторКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="УникальныйИдентификаторРасширеннаяПодсказка" id="6"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ПомощникДляРаботыСКонфигурацией</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ЛюбаяСсылка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Любая ссылка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+		<Attribute name="УникальныйИдентификаторОбъекта" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уникальный идентификатор объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>36</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолноеИмяОбъекта" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное имя объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Раздел" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Раздел</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОпределитьСсылку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить ссылку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить ссылку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОпределитьСсылку</Action>
+		</Command>
+		<Command name="ОпределитьУникальныйИдентификатор" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить УИД</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить уникальный идентификатор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОпределитьУникальныйИдентификатор</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ПолноеИмяОбъекта">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<KeyParameter>true</KeyParameter>
+		</Parameter>
+		<Parameter name="Раздел">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

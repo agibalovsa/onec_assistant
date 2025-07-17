@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<SaveWindowSettings>false</SaveWindowSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="НастройкиВыгрузкиПользовательскиеНастройки" id="27">
+			<Autofill>true</Autofill>
+			<DataPath>НастройкиВыгрузки.UserSettings</DataPath>
+			<ViewMode>All</ViewMode>
+			<ContextMenu name="НастройкиВыгрузкиПользовательскиеНастройкиКонтекстноеМеню" id="29"/>
+			<AutoCommandBar name="НастройкиВыгрузкиПользовательскиеНастройкиКоманднаяПанель" id="28">
+				<ChildItems>
+					<Button name="НастройкиВыгрузкиПользовательскиеНастройкиПрименитьПараметрыВыгрузки" id="42">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>Form.Command.ПрименитьПараметрыВыгрузки</CommandName>
+						<ExtendedTooltip name="НастройкиВыгрузкиПользовательскиеНастройкиПрименитьПараметрыВыгрузкиРасширеннаяПодсказка" id="43"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="НастройкиВыгрузкиПользовательскиеНастройкиРасширеннаяПодсказка" id="30"/>
+			<SearchStringAddition name="НастройкиВыгрузкиПользовательскиеНастройкиСтрокаПоиска" id="31">
+				<AdditionSource>
+					<Item>НастройкиВыгрузкиПользовательскиеНастройки</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкиВыгрузкиПользовательскиеНастройкиСтрокаПоискаКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="НастройкиВыгрузкиПользовательскиеНастройкиСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НастройкиВыгрузкиПользовательскиеНастройкиСостояниеПросмотра" id="37">
+				<AdditionSource>
+					<Item>НастройкиВыгрузкиПользовательскиеНастройки</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкиВыгрузкиПользовательскиеНастройкиСостояниеПросмотраКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="НастройкиВыгрузкиПользовательскиеНастройкиСостояниеПросмотраРасширеннаяПодсказка" id="39"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НастройкиВыгрузкиПользовательскиеНастройкиУправлениеПоиском" id="34">
+				<AdditionSource>
+					<Item>НастройкиВыгрузкиПользовательскиеНастройки</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НастройкиВыгрузкиПользовательскиеНастройкиУправлениеПоискомКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="НастройкиВыгрузкиПользовательскиеНастройкиУправлениеПоискомРасширеннаяПодсказка" id="36"/>
+			</SearchControlAddition>
+		</Table>
+		<Table name="РеквизитыОбъекта" id="44">
+			<Representation>Tree</Representation>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>РеквизитыОбъекта</DataPath>
+			<ContextMenu name="РеквизитыОбъектаКонтекстноеМеню" id="46"/>
+			<AutoCommandBar name="РеквизитыОбъектаКоманднаяПанель" id="45">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="РеквизитыОбъектаРасширеннаяПодсказка" id="47"/>
+			<SearchStringAddition name="РеквизитыОбъектаСтрокаПоиска" id="48">
+				<AdditionSource>
+					<Item>РеквизитыОбъекта</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РеквизитыОбъектаСтрокаПоискаКонтекстноеМеню" id="49"/>
+				<ExtendedTooltip name="РеквизитыОбъектаСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РеквизитыОбъектаСостояниеПросмотра" id="54">
+				<AdditionSource>
+					<Item>РеквизитыОбъекта</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РеквизитыОбъектаСостояниеПросмотраКонтекстноеМеню" id="55"/>
+				<ExtendedTooltip name="РеквизитыОбъектаСостояниеПросмотраРасширеннаяПодсказка" id="56"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РеквизитыОбъектаУправлениеПоиском" id="51">
+				<AdditionSource>
+					<Item>РеквизитыОбъекта</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РеквизитыОбъектаУправлениеПоискомКонтекстноеМеню" id="52"/>
+				<ExtendedTooltip name="РеквизитыОбъектаУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="РеквизитыОбъектаВыгружать" id="77">
+					<DataPath>РеквизитыОбъекта.Выгружать</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РеквизитыОбъектаВыгружатьКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="РеквизитыОбъектаВыгружатьРасширеннаяПодсказка" id="79"/>
+				</CheckBoxField>
+				<ColumnGroup name="РеквизитыОбъектаГруппаИмя" id="75">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реквизиты объекта группа имя</v8:content>
+						</v8:item>
+					</Title>
+					<Group>InCell</Group>
+					<ExtendedTooltip name="РеквизитыОбъектаГруппаИмяРасширеннаяПодсказка" id="76"/>
+					<ChildItems>
+						<PictureField name="РеквизитыОбъектаКартинка" id="60">
+							<DataPath>РеквизитыОбъекта.Картинка</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="РеквизитыОбъектаКартинкаКонтекстноеМеню" id="61"/>
+							<ExtendedTooltip name="РеквизитыОбъектаКартинкаРасширеннаяПодсказка" id="62"/>
+						</PictureField>
+						<InputField name="РеквизитыОбъектаИмя" id="63">
+							<DataPath>РеквизитыОбъекта.Имя</DataPath>
+							<ContextMenu name="РеквизитыОбъектаИмяКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="РеквизитыОбъектаИмяРасширеннаяПодсказка" id="65"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НастройкиВыгрузки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>dcsset:SettingsComposer</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПолноеИмя" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное имя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Раздел" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Раздел</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстНастроек" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст настроек</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РеквизитыОбъекта" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ПолноеИмя" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Картинка" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Имя" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Раздел" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раздел</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Владелец" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Владелец</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="СтандартныйРеквизит" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стандартный реквизит</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Выгружать" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгружать</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ИдентификаторСтроки" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор строки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Объект" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ПомощникДляРаботыСКонфигурацией</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПрименитьПараметрыВыгрузки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Применить</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПрименитьПараметрыВыгрузки</Action>
+		</Command>
+	</Commands>
+	<Parameters>
+		<Parameter name="ПолноеИмя">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="Раздел">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ТекстНастроек">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Parameter>
+		<Parameter name="ИдентификаторСтроки">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Parameter>
+	</Parameters>
+</Form>

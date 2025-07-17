@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>#</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>7</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<indexTo>21</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<indexTo>28</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>1</endRow>
+		<endRowOffset>3</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>2</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>1</beginRow>
+		<beginRowOffset>36</beginRowOffset>
+		<endRow>1</endRow>
+		<endRowOffset>21</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>30</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSizeIgnoreScale</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>5</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>2</beginRow>
+		<beginRowOffset>15</beginRowOffset>
+		<endRow>2</endRow>
+		<endRowOffset>27</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>30</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>3</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>6</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>2</beginRow>
+		<beginRowOffset>42</beginRowOffset>
+		<endRow>4</endRow>
+		<endRowOffset>30</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>36</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>4</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>10</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>6</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>6</endRow>
+		<endRowOffset>33</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>33</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>5</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>11</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>7</beginRow>
+		<beginRowOffset>27</beginRowOffset>
+		<endRow>8</endRow>
+		<endRowOffset>30</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>6</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>12</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>9</beginRow>
+		<beginRowOffset>27</beginRowOffset>
+		<endRow>10</endRow>
+		<endRowOffset>24</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>42</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>7</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>13</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>11</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>11</endRow>
+		<endRowOffset>39</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>39</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>8</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>14</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>12</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>13</endRow>
+		<endRowOffset>15</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>42</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>9</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>15</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>14</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>14</endRow>
+		<endRowOffset>18</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>36</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>10</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>16</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>14</beginRow>
+		<beginRowOffset>36</beginRowOffset>
+		<endRow>15</endRow>
+		<endRowOffset>30</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>42</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>11</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>18</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>17</beginRow>
+		<beginRowOffset>9</beginRowOffset>
+		<endRow>18</endRow>
+		<endRowOffset>9</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>45</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>12</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>19</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>18</beginRow>
+		<beginRowOffset>27</beginRowOffset>
+		<endRow>19</endRow>
+		<endRowOffset>27</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>13</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>21</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>20</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>21</endRow>
+		<endRowOffset>12</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>36</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>14</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>22</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>22</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>22</endRow>
+		<endRowOffset>39</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>12</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>15</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>23</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>23</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>24</endRow>
+		<endRowOffset>0</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>36</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>16</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>27</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>26</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>27</endRow>
+		<endRowOffset>3</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>17</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>28</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>29</beginRow>
+		<beginRowOffset>9</beginRowOffset>
+		<endRow>30</endRow>
+		<endRowOffset>12</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>18</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>29</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>27</beginRow>
+		<beginRowOffset>18</beginRowOffset>
+		<endRow>28</endRow>
+		<endRowOffset>21</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>48</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>19</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>31</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>31</beginRow>
+		<beginRowOffset>6</beginRowOffset>
+		<endRow>32</endRow>
+		<endRowOffset>33</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>15</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>93</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>20</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>32</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>24</beginRow>
+		<beginRowOffset>15</beginRowOffset>
+		<endRow>25</endRow>
+		<endRowOffset>18</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>45</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>21</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>37</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>32</beginRow>
+		<beginRowOffset>39</beginRowOffset>
+		<endRow>34</endRow>
+		<endRowOffset>30</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>3</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>84</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>22</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>2</defaultFormatIndex>
+	<height>36</height>
+	<vgRows>36</vgRows>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>WebСервис</name>
+		<drawingID>18</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ЗначенияСубконто</name>
+		<drawingID>29</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Интерфейс</name>
+		<drawingID>17</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Команда</name>
+		<drawingID>11</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Конфигурация</name>
+		<drawingID>12</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ОбщаяФорма</name>
+		<drawingID>16</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Общие</name>
+		<drawingID>13</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ОбщийРеквизит</name>
+		<drawingID>15</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Операция</name>
+		<drawingID>10</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПараметрСеанса</name>
+		<drawingID>14</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Перерасчеты</name>
+		<drawingID>23</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Подсистема</name>
+		<drawingID>1</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Последовательность</name>
+		<drawingID>19</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПредопределенныеДанные</name>
+		<drawingID>27</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПризнакиУчета</name>
+		<drawingID>21</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПризнакиУчетаСубконто</name>
+		<drawingID>22</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>РегистрацияИзменений</name>
+		<drawingID>32</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>РеквизитАдресации</name>
+		<drawingID>5</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>Роли</name>
+		<drawingID>37</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>СистемныеТаблицы</name>
+		<drawingID>26</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>СтандартнаяТабличнаяЧасть</name>
+		<drawingID>6</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>СтандартныйРеквизит</name>
+		<drawingID>2</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ТочкиМаршрута</name>
+		<drawingID>28</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ФункциональнаяОпция</name>
+		<drawingID>31</drawingID>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<format>
+		<drawingBorder>0</drawingBorder>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVDhPY2RA
+AjcPrf9/79QuhjevXjJ8/vqZ4dOHzwymPrEMzpHZKOqQAQuUBoM7x7YyOIcmMXx8
+95rh4/u3DK+fP2XYuXoWVBY7QDH5/KbZ/x9fPsZw994Dhu/fvjL8+PmLwTYomcE1
+JhenC1DA0fPX/qc2TP4PYoNoEB8sQQxA1gwDRBuCTTMMEDKEEV/IExMrLPhCnphY
+YcQX8iMkVuB+IRTiuOTheYFQiOOSh7uAUIjjkqcQMDAAADWdKJzOpUXMAAAAAElF
+TkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>1</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB1SURBVDhPYxgF
+gwAwQmkwWHC6+//WH1OgPOzAmyOHIcG0FK4PxYDQw/L/Z9rsBbPfM9wF018Y3oIx
+DGTl1TNcnPwOtwG68upQHgMDJys7AzMTMwMXOydUhIFheu1O3AaAvNC/qB3Kww4K
+4ypRvDAKBh4wMAAABMwiBbDVdesAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>2</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVDhPYxgF
+gwAwQmkw6N6T/v/sw/0Mf378h4owMPz6+g/KYmD4/ukvg4W6M0Nz7Fy4PhYoDQYn
+b+5jSI5KZfj6+wvDp18fGb78/sTw+ccHhl+/fjP8/vGT4ef3nwxHt+2HqoYAFBf4
+9yn/1zPWZvjz5w/D799/gBp/MvwCavwDZP8EGgKiX975zrCv6x5cH4oBtYuT/x+9
+jGoDOrDUdGJoTZyDom8UDCxgYAAAjJxNBcw7CZgAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>3</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVDhPY6AU
+MEJpMFhwuvv/1h9ToDzswJsjhyHBtBSuD8WA0MPy/2fa7AWz3zPcBdNfGN6CMQxk
+5dUzXJz8DrcBuvLqUB4DAycrOwMzEzMDFzsnVISBYXrtTtwGgLzQv6gdysMOCuMq
+UbxAMcBwwWggkg4wXDAaiKQCBgYABkRmDfwy+0QAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>4</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF6SURBVDhP1ZK9
+S0JRGId/ViK5SFQQBFkQRkSUYQ1dgsS5rSGXdmnur4jmBqGtJrMGF4OGAk1oaclF
+kEpJ0/w8dr/1xjlej1yy1uiBw+994X1e7rn34s+xmTmQnJw2ErUoEsUYFpwC/K4g
+lqZ8FmfETI70dGeo9Tc4phcRzZ/iqhgBedGQJucoOD/NqT5DZjKo3HrPoizKqBKC
+ZOOWySrpsHOTipmTfSwLqFyRNZBGDbquYUbzcJnkNKxNePHxmjHMcQZfID5eG7qi
+QBJbUGQJpFKAT9/CsrQB7dmOzTEBAY+ATCpuGl34CynGw0aBdGVVkTFsd8DpmsSo
+axxtXUetmEM5lwGplrB/dMk9XmQvjo2SpDBZV2VoksiS9rLUXUpPvdHE4dkD9/gV
+bO7VX2UKaYmYXw+wugdfMOcL2CqF/I8yTXo9r3+H9T0sX8G95kezXh0o00ff3jvA
+7Ipg+ZEsDeU+GjaSkRNWq3qHpdbuQNgNIRAMfZv/9wBfufLyQyqKA38AAAAASUVO
+RK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>5</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhPjVNL
+TxNRFP5mOtOZQomI0IfSlvIyGMQIoq7UuDBuNHFjgtGlmvgj/BMu3Wh0wcJEiRuN
+iRo3gEoEJVYH+gLpgwLt9N3pzFxPp6EJKoln8iV3zne+c889514O+9hWOspM3YQo
+SjBMDd2e/n/G/uVU5p8yNbEIXnbB7uwBZ+Nhlraxkw4hMHIRwYmpPZrWTymfZcsf
+7qOjawKu4El0ufuIbNKMPnU7hvjyS+Qzn3Du+kxL11rMztxm3v5L8I9Mkpcnj42w
+SzOCAcYMRJdeYEN5jfNTryyyEYnQx4fMQeX6hn1g5hbW11YwPzeLVCIEZiQIScIm
+QFzf6FnI7e1QFp40sjYTJJVnCAy7YWi/CElktzcwMXkV1XoAscgq8rk1y9+Aqa1j
+cPQY4l8eNKTgM6kw4/QUJCEJvRxFvRhBIZeBIAgIBgfQG7yGtYQPEWUVZTVqxchi
+GtDT1qR4rVKGbC+glvsBrUi7VFJg9QLltiqE3W7H2IlT6AncgqJkUdzZRK0QR5tc
+oyNRBYJdprJK4HQGG5PAGSJpGw3ca4xRQoMDb5DIkEhMd4S0PE9zzudE6JpEDXRS
+6AGCTGhOQNM0fF36jE3lMYZ626miTuqFjIJqR12vgu/xDHCCw4tirkaXxmWhzdEB
+XdcRCa8guvgEvW3f4fe6IUpu4j0oqnU4nAF0u4PWwHH4+B3EoyXUykXwkhcBnx9z
+76Zhq4bg9/VR8BHL34BWKSEWVuEfv2dV2LpI7x9dYc4OHwbGLsBxcIh2kq1zc1wz
+hBlVVLOrCH97S5NI4czN5xbRSlAuqGxh5i511QXf0DgOeQZhkzqtCKOag7oVQzQ0
+D9HM4PSN6Zautdi1xmNK/XwDxjnBBCcE0QazvANRqMBz9PL+j+lP+7/nDPwGVwwz
+cc95MXIAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>6</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIuSURBVDhPpVJL
+b9NAEP78yDvNC9WO8kRVH0GhtwrBBTggcUAcOXDmz/VSIf4A4gCNqnKiJKRpg0RJ
+Qo3TpIkS27FjL2M3SmXaW0f6NLuz8307s7O4q3ELf8PUXpNNLkcQAwGEYhFIuQe3
+5t4IXnS/MqVdg8PxcIQIOJ6BM0dgcxOFygukczs+jm/TPNxjHHpIy2WsZNYQCMkU
+ncOYtjHq1zHotSGXnkG6/2rJ4xce/U6NOVYDcrFMApsIhpPgOJMqcBCJl7Gaf4Rs
+qYTe6R5VWWML2rVA9+QDEikLkVgQYEM4c+UKluvPSUxHPLWKZMbGWX13wVoIKJ0j
+pg0OEBYVMOsMtn4KW2sS6oQG7VtejLNVRIIj6IN9qN26V4XXS+vbR6YcvcNWNYdw
+fI0qEEBPRyduzlW7HOd6E9rld/xsKsjvvEe58piemkwQA7CNCcxBC4ZyiFn/B8z+
+MeGE0PLWM7UO4/wA1rBDLdk0XmqVzBOIr6ToHhmWmYBjkJjGqGT4oTlwZiEiu7kF
+BMKhawG5uM3FpKfQZ1kwvkzRnBv1g897ZzNLRiJLo8xXvd6WUyhtv8XULMKgZCG6
+DjG6RX6TvAtaR9ZhQYI2LyNffbNg/feRGl92mX7xGelUDImkBDF4z4vbZh+T0V+M
+RxrkyktIG6+XPJ+Aa+qvffbn+BNMfQxzzkEQeAR4k/5HBvLGc2RKT3ycGwKuWbMx
+G6q/MR1PaEIiwtEQpMLDW3PvaMA//PTvpX5y0JQAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>7</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPYxhw
+wAilUcDOU1f/T950HMzO9bNkcDfTxqoOBDAkQJrnn3nFYKSlCuafu3abIdFEDKch
+TFAaDkA2yykoMHz48QeMQWyYa7ABDANA4NOPvwzvvv0BYxAbH8AwAOTnDy8eM/Bx
+MIMxiA0SIwmAwsGnZg4Y33ny6j9I7OrRnf9boyzAGMQGKwQCnKGLDEAaLm6Zy2Bg
+aQfmXzh+iEHfJ5lB29qdEcULO6+s/m/XJfnfc7ryfxAbKsywaVoDg4yCIsOb54/B
+GMTeMLUeLAc3AKRhyu1ChvjISIYQH38GEBtmyN+/fxk+v3+LgmEA7gWQrdpW8lAe
+BFw99pBhe+ZdRpgXQDaDwJMH9+FeYAGLQMGjz/egLBhgBpMghSBDYM4OyG4Ei4HY
+cBfAvGCn4wjmH7qynyFHtZ/BXSeUqIAGA5AhIK+A8J1XV+GBSEPAwAAAyiKuAGq3
+/BAAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>8</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADXSURBVDhPY6Ap
+uPXx//+Lz778h3KxAiYojQFAmtc+YGCYfuIFAz5DsBoA0wwD+AzBMABZ8+PLJxm+
+fvkCZuMyBMUAdM23ju5k+PThA15D4AZg0wxzAT5DwAbg0gwD+AxhBBHHbr34X7fm
+DIjJwM3Dw8AnIACmQUBeWRlMoxs8raOOwdnGghHsAis1CcamEBOwBLptIIBLM4gN
+JmAAm0t4mX7g1AwCKAaAALohX68fxKkZBDDSAbp38GnGC0AucWnb8l/dxuv/3iMn
+sKZCggBkCNmaiQMMDAARgNSKfCLw/AAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>9</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACESURBVDhPYxgF
+lANGKM2w5dH//5ffQzkEgK4gA4OPHCNYL9yA9ov//4MkiAFbztxlmBGkgmpAxro7
+/+WVlaE8/GDv1q0Me6p8UA1wadvyX0VDA8rDD/Zs2cxwZ14hqgEqSf3/FVRUoTz8
+4OnxTQzXN8/CdAFIghggbekH98IooBgwMAAA5ZUpB+IaiRgAAAAASUVORK5CYII=
+</picture>
+	</picture>
+	<picture>
+		<index>10</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEoSURBVDhPY6AU
+MIKIqSu2/l997gXD1x+/wILEgAQrOYbsCG9GsAG5bTP+P3/zHixBLJAUEWSYXJUB
+1s+wct/Z///+/fv/9+9fojBIbd2EOf9BepnAJgDBn38MDG/fviUK/wNrhQAWKM3w
+Gyi4fPlyKA8VuLq6MmhqakJ5DAy/kEyAG/Dr11+GyMhIKA8TvH79GspiYODhF4ay
+kAwAAWJd8P0X0L9QADcAJARSiAtcv34dymJgkFdWh7KQDAD5avfu3RAOEOTl5UFZ
+EM3ILviKzQW/fv9BcQGyjSCAzJdWVIWykAz4++cvXheAAMwVH76ipVhQQvr25///
+jz/////8Czv+AJSD4Z9AtbCEBE6KWw+f/X/j3iMQk2ggLSLAEOHtCEnKAwgYGACk
+tdwNhuW/GAAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>11</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJTSURBVDhPrZPN
+axNBGMaf3U2a7GqimAjWWIK11qpIq14sgogW/DqIKJQiIqiXerKIlx5V/AsED8VW
+sfSiVQqNpYJ6CbYeGoVglTY2TSv5oKnJbrLJfiRZd9+GYK0fFx+Yed55Z37vDMMM
+g18UE1XjU1pBJKMiIF6inEfyoN3Vi6Mt9di3zbOKYatOCqQDxus0h5BkQ1LjwG/n
+wXgZzAvzePw+ihtDQTx8Gzaqy0m1AiPxEWMwNwi9joPT6YDAO+Gfuw8pKUFKSbQm
+khJxbzSE/on+WhEqYB17OD4MuIAx/Rxc6zmaXCfw2K08gl/to7HgdIJpvIOBqQGE
+FkJUxGZ1SslAT1MPbA4bWDcLl26gstEBXedQ3snj6YcKRtPL0Lf2WssxszSD8c/j
+FFMBwc7CE5VgzycoCYSrDoh5BaebT0Iv+jD0DVBllfLBuSA5FXBEgjCyC1gqAzkx
+A1UpQlMVlDSzqSpKiwmcOXYVb7JbEJNjBE4npsnpDhgTXlb0NbBeLEBXZMiLYeTj
+s+hs7oQma8jN3oKWuLlSoPDxlWHtUizk18CW09icz0wF0LrhLEGW9jZ4yVkpFUNS
+LvwRVoor+e9fJgmwdrd0ZE8DOVvIS/+ErSZKOQIstfg24dT+RopZxt/2V9hSLl+A
+e1c7xS6+DtdPHMDBHfX0pKl7cfeKIQjCb2HL0+YbaL18G1HWB4edw7WOttp/oCD0
+8onxdXIMNo5dA2dFCU0dF7H50Hl43bx5fPNz/KTaYOJ5n/Hu2QOKtVKFXC9XcPhC
+N453da+C/qOAH2aTZwAcBd3lAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>12</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEESURBVDhPYyAV
+uLRt+T/vwI3/UC4DI5SGg4x1d+CS2MD7N28Yfvz4wRBqKscQY6nEiGEAyAYoEy94
+cOc2Q5aPGaYLVJL68RqgoKIK11wUZI2hnyAAWdC37ihRrkQBYUcU/q940IOhEe6E
+5kfueE39+O0zw4evnxi8JdIYAqXz4PrgDJANUCZecGvVJ4YUt2KGHJ9qsF64AQZ5
+QngNkLbhYnh65BuKZpIAyIIpW1pJD7z/8V7//69ZhFMj4/95BfhNffiWgeHzD2AK
+C2Jg9IrEcDrj/6JQopz15sQ5Bs74LAae9GIUQxhfWynjNYBPSprh07OnWDUTBUAW
+fJnZS3rgEQcYGACiMWTq3TCKWAAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>13</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFXSURBVDhPY6AU
+MIKI3aev/d9/7hZYAB38/feH4d/f/wzWOooMAQ4mYPXIgAVE7Dx+iSE93Aeo+C/D
+n7//GP7+BdEQNoT+yzBl0TqwBnQANjGve+F/Q0MDhl+/fjP8/v2H4efv3xD2HyAb
+SP/685vh2ePHDEtbczFcABaYu2Hf/93Hz4MFcIFgF0uGUFcrDAMGHuB00tnHh/6f
+f3YUwvn3n+H/P0aG/8DYAEYKg5GcDYOZih1+78w52f4fF5i2vfU/VBkDE5TGBHAl
+CHDu7nEw/e83mAIDnAb8BzobBHaeWw+mZ+/sYcicEQhmE2fAXwhdtzyTIX92NMOc
+PT0Mxf5tYDFQOMAAbgOgtoA0nbi1l8FF158hzCYJLAYKTBjAacC/PxBFIE05XnUM
+rXEzwXwQgLkOBHBGxcmbh/6fvnEYmJGAGoCGgTSBMdBcC11bBisDe2qkSgYGAC7Y
+tnxyjajVAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>14</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJBSURBVDhPrZNL
+TBNRFIb/kfFRKqVoEQRKrI+E+mypNCIWGncgURYmLNSYiImJMeKCBcaNCyUxRBdE
+g8YN4gYTA9GoCWAEQa12FDYgxURdiCLgQBXFhHlc772daSu6028y90xO/vufM+fO
+4F8R2NItvSY9A294YiGarkLXCEo2u1AV3M71yfBEXVMbOVZdScUaVE1HukXECusy
+EHYRpiCYlKNYl5f1d4OTjTeI1+vB/LwCRVGxP7AJQxPPMDwR4iJdJ9AUHTaLBbQh
+FObvgn99Kd8rsmXbBic6ux+yR06Fbw36hx/gUNEpI0OFKQJEUaQVBdwZbDGyRgfJ
+vPrQRwY/PUX4XS/cmYUgugBCZ0A0IFWwY5/vIDrCLTix90yig2TuS7dxwFcLd2ox
+sm1OzPz4ggyrA99+zuDo1QpuoCuGmBI3MCs/Ge1CR+QaZudmYV2chnH5I2wpDpQW
+lMPrLOZaNgeTuAHbXOOvRyBvD3Lta/E5OobVGU5Mf59CVYMf5Z5quDLdXMteyWSR
+EdlJxYIRx+T3uPfyFqJzMgqyPMhOzwHU2MjYPEziBoQeFSM00sPj80gvLt49DeuS
+NOTaXJC/TmFgRML19ibs2BLgGkbCwHBt7mxAfesRtNNJHw7WImdlPpYvtcNhX4WS
+rUGcPX5B2Okpi59ewsCYbM3uOoTfPkaRqwzBjZWYnB6HNBTC5bbG3yr/QXPXeWLS
++uiK8RTj0s1ziaktIN7Ki9E+IkX66Y9Du1FjHw6/6VZWObnt/wjwC/4N7Rtpdzba
+AAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>15</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEySURBVDhPYxj6
+gBFKY4Dt1+b8X3x4OsPrD+8ZWJjYGYwUrBls1dwZPPRDUfRgNQCkedPVRQw5Nh0M
+YtxKYLHLj08xHL61k0FaUIEhxaEUp8UMR+6t/x+91PD/qjOT/kOFUEDj+uz/Oy6u
+hssxQWk4mHysluHJ3bcMm24ugIqgApA3QC6BAbABBy5v/+/epPbfZbLM/6eP3zD8
+YfjFcP/uMwaLavH/poVi/0HyYNVAoCtrBvYODIANcND1ZKwMnMjw5fFfBmkFYQYp
+FUEGAX5ehh+v/zN0Jy0Ey4NVEwIgm2yqZP679Sj+14tHtRkG9l3d9L96dQrW8AED
+kCZcmkEAPRCxAnTNrz+9+A+yGaR5zoFuFDmCfnv45s7/R2/uMDx4c5tBS9qIwVjR
+mrjwGCqAgQEAKWaLu+f/JNAAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>16</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADzSURBVDhPYxj6
+gBFKM0RWTPj/6dMnKA87YGJhYdg8qQquBwTgnISGGf81TB0Y/oPgf6AAkIBQEBrE
+P7l3C8OWSRUoBjBBaTD48v0nw5dvIPyD4RMIf/0OwV++MXwAYmyAYi9QDIg27dDW
+nP93rywDh5GKTjSDnfcUsF6iDDi0Nfc///dtDAoSomAd9x49Z/guFMZg5d7NiBKI
+uMDdK0sZFCRFGVgEJBlYeAQYJHmEGG5emAuWI8oAMADF5V9gTHz5zPDjK0QIBIgy
+QBno5/uPnzN8fvyK4fXjbwwP37xjUDNIAsuRFIh3gF4BAeRAHGjAwAAAUV5riFox
+ygcAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>17</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAzUlEQVQ4jcXSsUpD
+QRAF0KNEMa9IZWcpKWz8gBdIq59gY5Myv2CdyiJdWv8iaC/JDwQCgoWFXWwsTPlC
+YIvN4vKSEMiFgZmdnTvc4To0SryGKLfhPknq9eBlyBe4ryNo1JAPcYE2zjHDAN+5
+oQ7eMA55ih5etpGWQ4Fp3DvdkeAB76nOGC30cYNr/IXeevMn5hjhN7fhOegs9tU4
+wdkuA+kNPvCIZvKeNVh6gys84RZfwUxLdIMPpAZLCXKIHfqDu38/VlW1ERHqDHYs
+YAVw6SqEDU4CIQAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>18</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADASURBVDhPYxj6
+gBFKw0HVzA3/oUyGtvQADHl0wASlUQAxGnECZBcQA7C6AASINQirAaS6giKAEli7
+T1//v//cTSgPFfz994fh39//DNa6SgwB9sZwfSxQGgx2Hr/IkB7uA1T8l+HP338M
+f/+CaAgbQv9lmLJoHVQ1BKC4IK974X9DQwOGX79+M/z+/Yfh5+/fEPYfIBtI//rz
+m+HZ48cMS1tz4fpQDJi3Yd//XcfPQ3nYQYirFUOIiyWKviENGBgA5t1XkRtXKU0A
+AAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>19</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVDhPY6AU
+MN48tP7/vVO7GN68esnw+etnhk8fPjOY+sQyOEdmM0LV4AdbO1L+/7h77P/L0xv/
+39o17//Rhc3/64L0/9++ffu/r68vXhqkn/H8ptn/H18+xnD33gOG79++Mvz4+YvB
+NiiZwcgziuHq1asM2traOGlhYWHiXElTMBqIVACjgUgxYGAAAIo3BW3O5jZzAAAA
+AElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>20</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHkSURBVDhPY8AG
+Ctfd+r//0c//Mf2b/1uEpP/PXnHlP1QKAzBBaRTwHSj8lYGN4cV3RoaPP/8z/GXj
+gMpgArABBnlC/2EYLEoCABvQGjsTzMEFThwwY9h6ejVWw5lAEjvPrUMxhJPhHwM3
+wy8GCc7/DPzsjAyGujMZQGpAajFcCRLAZToygGlGNwDsBW/TUEb0kL/49COKwl3n
+10NZqIDJTtsdbDpyyM/rrGaIyFZlsKiQ/O8+V+Z/9ryi/xH23QwuUs0M1laHoFoh
+gMndKAjsP2QgKsTPwM3Jw6Dw34ChUn8eg7OJCkPh/AIGJyszBm05YagqCGACOX9S
++nJGKB8OpI0EGDJCCxmsjG0YZl1sY2AXPcxQPi+LQUGQHaoCAuAJCTnk//75w/Dn
+mzUDo9h7hqB16gyqOpIMQtpsDEK6jxkmbqqA6oAAFJthIdyVOI/BzTCAMbjF6v8/
+kycMpe5lDHsfb2Y4d+06w7urvxhEvisxrK05BtaLNSn//vMbTIMUMZ2RYZhwtIfB
+WdaXwUhLE+ySN5z3GCrXx4EtwzAAlKBgiQbET/UsYXi08TeKIdwvZBjaAxeBXYAR
+eCAA0ly9OB3KY2C4MOkd2DvMDs8YGE6LMKwqPINVH0GQ0ROOkrgYGBgYAGidxZcv
+RFmZAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>21</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPpZBN
+SsNAGIbfJiT+RRqakCzcmAouLK5cFMzCM9QL9AriDQTv4SaQI4ibILgQwYVSdGGF
+CjGUFJJaGkUNyWiHpFqScWEfGL43wzfPzBfMSyWrUwL3jITPp9nXLEK6h3WzNXOm
+IOheHhBFr0FY2YIobdO9z6iD+PUevYsedtonM2e4rE55++AQ+CHN4vImXRMCP8D4
+ZUzzbwovuD0/JEPfRU3fQDTywfMCliQF4WMX4VOI/WPn7xfkDDs3iK8f8H51RzOL
+gkBfayEOF75vX4XniXRFIwlxvIjd9lHW9UNhhBzLsojjOJBlGf1+H7Ztl/YyR2g2
+mzAMA6ZpUgkLpsB1XaiqSvO/BI1GA5qm0czzPK1lMAWe52EwGKBSYf4mClMwmT8n
+TdMsFWEKkiRBtVoFISTbKYcpUBQF9XodkiSB45ht8wJ8AQ6gZr0EzOoOAAAAAElF
+TkSuQmCC</picture>
+	</picture>
+</document>
