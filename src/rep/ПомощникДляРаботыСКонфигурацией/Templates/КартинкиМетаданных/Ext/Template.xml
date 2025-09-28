@@ -8,6 +8,11 @@
 			<code>Русский</code>
 			<description>Русский</description>
 		</languageInfo>
+		<languageInfo>
+			<id>en</id>
+			<code>Английский</code>
+			<description>Английский</description>
+		</languageInfo>
 	</languageSettings>
 	<columns>
 		<size>7</size>
@@ -93,7 +98,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -110,7 +115,7 @@
 		<endColumnOffset>30</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSizeIgnoreScale</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>2</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -127,7 +132,7 @@
 		<endColumnOffset>30</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>3</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<drawing>
@@ -144,7 +149,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>4</zOrder>
 		<pictureIndex>4</pictureIndex>
 	</drawing>
 	<drawing>
@@ -161,7 +166,7 @@
 		<endColumnOffset>33</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>5</zOrder>
 		<pictureIndex>5</pictureIndex>
 	</drawing>
 	<drawing>
@@ -178,7 +183,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>6</zOrder>
 		<pictureIndex>6</pictureIndex>
 	</drawing>
 	<drawing>
@@ -195,7 +200,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>7</zOrder>
 		<pictureIndex>7</pictureIndex>
 	</drawing>
 	<drawing>
@@ -212,7 +217,7 @@
 		<endColumnOffset>39</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>8</zOrder>
 		<pictureIndex>8</pictureIndex>
 	</drawing>
 	<drawing>
@@ -229,7 +234,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>9</zOrder>
 		<pictureIndex>9</pictureIndex>
 	</drawing>
 	<drawing>
@@ -246,7 +251,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>10</zOrder>
 		<pictureIndex>10</pictureIndex>
 	</drawing>
 	<drawing>
@@ -263,7 +268,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>11</zOrder>
 		<pictureIndex>11</pictureIndex>
 	</drawing>
 	<drawing>
@@ -280,7 +285,7 @@
 		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>12</zOrder>
 		<pictureIndex>12</pictureIndex>
 	</drawing>
 	<drawing>
@@ -297,7 +302,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>13</zOrder>
 		<pictureIndex>13</pictureIndex>
 	</drawing>
 	<drawing>
@@ -314,7 +319,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>14</zOrder>
 		<pictureIndex>14</pictureIndex>
 	</drawing>
 	<drawing>
@@ -331,7 +336,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>15</zOrder>
 		<pictureIndex>15</pictureIndex>
 	</drawing>
 	<drawing>
@@ -348,7 +353,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>16</zOrder>
 		<pictureIndex>16</pictureIndex>
 	</drawing>
 	<drawing>
@@ -365,7 +370,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>17</zOrder>
 		<pictureIndex>17</pictureIndex>
 	</drawing>
 	<drawing>
@@ -382,7 +387,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>18</zOrder>
 		<pictureIndex>18</pictureIndex>
 	</drawing>
 	<drawing>
@@ -399,7 +404,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>19</zOrder>
 		<pictureIndex>19</pictureIndex>
 	</drawing>
 	<drawing>
@@ -416,7 +421,7 @@
 		<endColumnOffset>93</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>20</zOrder>
 		<pictureIndex>20</pictureIndex>
 	</drawing>
 	<drawing>
@@ -433,7 +438,7 @@
 		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>21</zOrder>
 		<pictureIndex>21</pictureIndex>
 	</drawing>
 	<drawing>
@@ -450,7 +455,7 @@
 		<endColumnOffset>84</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Stretch</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>22</zOrder>
 		<pictureIndex>22</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
