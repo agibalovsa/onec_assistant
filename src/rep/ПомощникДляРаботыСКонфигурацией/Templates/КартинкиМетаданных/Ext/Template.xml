@@ -98,7 +98,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -114,8 +114,8 @@
 		<endColumn>0</endColumn>
 		<endColumnOffset>30</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>RealSizeIgnoreScale</pictureSize>
-		<zOrder>2</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<drawing>
@@ -132,7 +132,7 @@
 		<endColumnOffset>30</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>3</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>3</pictureIndex>
 	</drawing>
 	<drawing>
@@ -149,7 +149,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>4</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>4</pictureIndex>
 	</drawing>
 	<drawing>
@@ -166,7 +166,7 @@
 		<endColumnOffset>33</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>5</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>5</pictureIndex>
 	</drawing>
 	<drawing>
@@ -183,7 +183,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>6</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>6</pictureIndex>
 	</drawing>
 	<drawing>
@@ -200,7 +200,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>7</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>7</pictureIndex>
 	</drawing>
 	<drawing>
@@ -217,7 +217,7 @@
 		<endColumnOffset>39</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>8</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>8</pictureIndex>
 	</drawing>
 	<drawing>
@@ -234,7 +234,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>9</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>9</pictureIndex>
 	</drawing>
 	<drawing>
@@ -251,7 +251,7 @@
 		<endColumnOffset>36</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>10</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>10</pictureIndex>
 	</drawing>
 	<drawing>
@@ -268,7 +268,7 @@
 		<endColumnOffset>42</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>11</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>11</pictureIndex>
 	</drawing>
 	<drawing>
@@ -285,7 +285,7 @@
 		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>12</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>12</pictureIndex>
 	</drawing>
 	<drawing>
@@ -302,7 +302,7 @@
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>13</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>13</pictureIndex>
 	</drawing>
 	<drawing>
@@ -310,33 +310,33 @@
 		<id>21</id>
 		<formatIndex>1</formatIndex>
 		<beginRow>20</beginRow>
-		<beginRowOffset>18</beginRowOffset>
+		<beginRowOffset>0</beginRowOffset>
 		<endRow>21</endRow>
-		<endRowOffset>12</endRowOffset>
+		<endRowOffset>6</endRowOffset>
 		<beginColumn>0</beginColumn>
 		<beginColumnOffset>0</beginColumnOffset>
 		<endColumn>0</endColumn>
-		<endColumnOffset>36</endColumnOffset>
+		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>14</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>14</pictureIndex>
 	</drawing>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>22</id>
 		<formatIndex>1</formatIndex>
-		<beginRow>22</beginRow>
-		<beginRowOffset>0</beginRowOffset>
+		<beginRow>21</beginRow>
+		<beginRowOffset>15</beginRowOffset>
 		<endRow>22</endRow>
-		<endRowOffset>39</endRowOffset>
+		<endRowOffset>36</endRowOffset>
 		<beginColumn>0</beginColumn>
-		<beginColumnOffset>12</beginColumnOffset>
+		<beginColumnOffset>0</beginColumnOffset>
 		<endColumn>0</endColumn>
-		<endColumnOffset>48</endColumnOffset>
+		<endColumnOffset>54</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>15</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>15</pictureIndex>
 	</drawing>
 	<drawing>
@@ -344,16 +344,16 @@
 		<id>23</id>
 		<formatIndex>1</formatIndex>
 		<beginRow>23</beginRow>
-		<beginRowOffset>18</beginRowOffset>
+		<beginRowOffset>6</beginRowOffset>
 		<endRow>24</endRow>
-		<endRowOffset>0</endRowOffset>
+		<endRowOffset>3</endRowOffset>
 		<beginColumn>0</beginColumn>
-		<beginColumnOffset>0</beginColumnOffset>
+		<beginColumnOffset>6</beginColumnOffset>
 		<endColumn>0</endColumn>
-		<endColumnOffset>36</endColumnOffset>
+		<endColumnOffset>54</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>16</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>16</pictureIndex>
 	</drawing>
 	<drawing>
@@ -369,8 +369,8 @@
 		<endColumn>0</endColumn>
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>17</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>17</pictureIndex>
 	</drawing>
 	<drawing>
@@ -386,8 +386,8 @@
 		<endColumn>0</endColumn>
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>18</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>18</pictureIndex>
 	</drawing>
 	<drawing>
@@ -403,25 +403,25 @@
 		<endColumn>0</endColumn>
 		<endColumnOffset>48</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>19</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>19</pictureIndex>
 	</drawing>
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>31</id>
 		<formatIndex>1</formatIndex>
-		<beginRow>31</beginRow>
-		<beginRowOffset>6</beginRowOffset>
+		<beginRow>30</beginRow>
+		<beginRowOffset>15</beginRowOffset>
 		<endRow>32</endRow>
-		<endRowOffset>33</endRowOffset>
+		<endRowOffset>6</endRowOffset>
 		<beginColumn>0</beginColumn>
-		<beginColumnOffset>15</beginColumnOffset>
+		<beginColumnOffset>0</beginColumnOffset>
 		<endColumn>0</endColumn>
-		<endColumnOffset>93</endColumnOffset>
+		<endColumnOffset>75</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>20</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>20</pictureIndex>
 	</drawing>
 	<drawing>
@@ -437,8 +437,8 @@
 		<endColumn>0</endColumn>
 		<endColumnOffset>45</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>21</zOrder>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
 		<pictureIndex>21</pictureIndex>
 	</drawing>
 	<drawing>
@@ -446,25 +446,46 @@
 		<id>37</id>
 		<formatIndex>1</formatIndex>
 		<beginRow>32</beginRow>
-		<beginRowOffset>39</beginRowOffset>
-		<endRow>34</endRow>
+		<beginRowOffset>15</beginRowOffset>
+		<endRow>33</endRow>
+		<endRowOffset>33</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>72</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>22</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>40</id>
+		<formatIndex>1</formatIndex>
+		<beginRow>34</beginRow>
+		<beginRowOffset>27</beginRowOffset>
+		<endRow>35</endRow>
 		<endRowOffset>30</endRowOffset>
 		<beginColumn>0</beginColumn>
-		<beginColumnOffset>3</beginColumnOffset>
+		<beginColumnOffset>15</beginColumnOffset>
 		<endColumn>0</endColumn>
-		<endColumnOffset>84</endColumnOffset>
+		<endColumnOffset>63</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>Stretch</pictureSize>
-		<zOrder>22</zOrder>
-		<pictureIndex>22</pictureIndex>
+		<pictureSize>RealSize</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>23</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>2</defaultFormatIndex>
-	<height>36</height>
-	<vgRows>36</vgRows>
+	<height>37</height>
+	<vgRows>37</vgRows>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>WebСервис</name>
 		<drawingID>18</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ДокументПроведение</name>
+		<drawingID>40</drawingID>
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
 		<name>ЗначенияСубконто</name>
@@ -836,5 +857,44 @@ gkBfayEOF75vX4XniXRFIwlxvIjd9lHW9UNhhBzLsojjOJBlGf1+H7Ztl/YyR2g2
 mzAMA6ZpUgkLpsB1XaiqSvO/BI1GA5qm0czzPK1lMAWe52EwGKBSYf4mClMwmT8n
 TdMsFWEKkiRBtVoFISTbKYcpUBQF9XodkiSB45ht8wJ8AQ6gZr0EzOoOAAAAAElF
 TkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>22</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAAFCGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJl
+Z2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1w
+bWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1Q
+IENvcmUgOS4xLWMwMDMgNzkuOTY5MGE4NywgMjAyNS8wMy8wNi0xOToxMjowMyAg
+ICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8x
+OTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6
+YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+c1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9i
+ZS5jb20vdGlmZi8xLjAvIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20v
+eGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMv
+MS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rv
+c2hvcC8xLjAvIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY2NGQ4YmFkLTE2
+NzgtNDM0OS1iYmRmLWNiNTUzNmYxOTdkYSIgeG1wTU06RG9jdW1lbnRJRD0idXVp
+ZDpmYWY1YmRkNS1iYTNkLTExZGEtYWQzMS1kMzNkNzUxODJmMWIiIHhtcE1NOk9y
+aWdpbmFsRG9jdW1lbnRJRD0idXVpZDpmYWY1YmRkNS1iYTNkLTExZGEtYWQzMS1k
+MzNkNzUxODJmMWIiIHRpZmY6T3JpZW50YXRpb249IjEiIHhtcDpDcmVhdGVEYXRl
+PSIyMDI2LTA1LTA4VDAwOjM3OjA2KzA0OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAy
+Ni0wNS0xNFQxOTo1Mjo0NSswNDowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNi0w
+NS0xNFQxOTo1Mjo0NSswNDowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rv
+c2hvcDpDb2xvck1vZGU9IjMiPiA8eG1wTU06SGlzdG9yeT4gPHJkZjpTZXE+IDxy
+ZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1w
+LmlpZDo2NjRkOGJhZC0xNjc4LTQzNDktYmJkZi1jYjU1MzZmMTk3ZGEiIHN0RXZ0
+OndoZW49IjIwMjYtMDUtMTRUMTk6NTI6NDUrMDQ6MDAiIHN0RXZ0OnNvZnR3YXJl
+QWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyNi4xMCAoV2luZG93cykiIHN0RXZ0OmNo
+YW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRl
+c2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5k
+PSJyIj8+NOaVrgAAATFJREFUOI1j/P//PwMlgIki3QwMDCwgYury3f9/fv1ItCZ2
+bn6G7EhXRrgB/39/ZShKCSHagCmLNqC64Nv3nwz//v0DCyxYsw2nxoQQLwaYehQD
+WJiZGWCBGR/sidMAmBqQehQDkCUXrdvBgAvEBXlgiLHAGD9//gQbEublgNOAHz9+
+MDAyMmIa8OfvX4a/f/+CBdbsOITTgBAPOzB9leESg8nOGf/hBnBxsjMwQ/0V7u3I
+gA/senGAYTfrFgY3M2eGC0fPIbyAD9hu9wbTvjLuDJuf7GQw8tJnuLDvDEOLWTXE
+AEZWboaZy7fjNOD113cMkiGSDPPWLAfT51deYJjp083gIevCCA44Qnj7nV3/jefa
+/Je9rwemQXyYHFEGgA25tuO/cbv5fxCNLM444LkRAPfivHImtvriAAAAAElFTkSu
+QmCC</picture>
 	</picture>
 </document>

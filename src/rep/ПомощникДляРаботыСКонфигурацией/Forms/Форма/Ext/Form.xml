@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<SaveDataInSettings>UseList</SaveDataInSettings>
 	<SaveWindowSettings>false</SaveWindowSettings>
@@ -9,6 +9,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -26,7 +27,6 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Horizontal</Group>
-			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ОбщаяГруппаРасширеннаяПодсказка" id="162"/>
@@ -62,25 +62,6 @@
 							</ToolTip>
 							<ExtendedTooltip name="ГруппаДеревоМетаданныхРасширеннаяПодсказка" id="235"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаОперацииСДеревом" id="252">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа операции с деревом</v8:content>
-										</v8:item>
-									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Группа операции с деревом</v8:content>
-										</v8:item>
-									</ToolTip>
-									<Group>Horizontal</Group>
-									<Behavior>Usual</Behavior>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаОперацииСДеревомРасширеннаяПодсказка" id="253"/>
-								</UsualGroup>
 								<Table name="ОбъектыМетаданных" id="4">
 									<Representation>Tree</Representation>
 									<ChangeRowSet>false</ChangeRowSet>
@@ -112,6 +93,16 @@
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.НайтиСсылкиВОбъекте</CommandName>
 												<ExtendedTooltip name="ОбъектыМетаданныхКонтекстноеМенюНайтиСсылкиВОбъектеРасширеннаяПодсказка" id="622"/>
+											</Button>
+											<Button name="ОбъектыМетаданныхКонтекстноеМенюВыполнитьОчисткуОбъекта" id="634">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ВыполнитьОчисткуОбъекта</CommandName>
+												<ExtendedTooltip name="ОбъектыМетаданныхКонтекстноеМенюВыполнитьОчисткуОбъектаРасширеннаяПодсказка" id="635"/>
+											</Button>
+											<Button name="ОбъектыМетаданныхКонтекстноеМенюНайтиБитыеСсылкиПоОбъекту" id="640">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.НайтиБитыеСсылкиПоОбъекту</CommandName>
+												<ExtendedTooltip name="ОбъектыМетаданныхКонтекстноеМенюНайтиБитыеСсылкиПоОбъектуРасширеннаяПодсказка" id="641"/>
 											</Button>
 										</ChildItems>
 									</ContextMenu>
@@ -282,10 +273,25 @@
 																<CommandName>Form.Command.РежимВыгрузкиПоСсылке</CommandName>
 																<ExtendedTooltip name="ОбъектыМетаданныхРежимВыгрузкиПоСсылкеРасширеннаяПодсказка" id="620"/>
 															</Button>
+															<Button name="ОбъектыМетаданныхОчищатьНеВыгружаемыеСсылки" id="636">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОчищатьНеВыгружаемыеСсылки</CommandName>
+																<ExtendedTooltip name="ОбъектыМетаданныхОчищатьНеВыгружаемыеСсылкиРасширеннаяПодсказка" id="637"/>
+															</Button>
 															<Button name="ОбъектыМетаданныхСтрогийФорматВыгрузки" id="628">
 																<Type>CommandBarButton</Type>
 																<CommandName>Form.Command.СтрогийФорматВыгрузки</CommandName>
 																<ExtendedTooltip name="ОбъектыМетаданныхСтрогийФорматВыгрузкиРасширеннаяПодсказка" id="629"/>
+															</Button>
+															<Button name="ОбъектыМетаданныхВыгружатьПомеченныеНаУдаление" id="638">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ВыгружатьПомеченныеНаУдаление</CommandName>
+																<ExtendedTooltip name="ОбъектыМетаданныхВыгружатьПомеченныеНаУдалениеРасширеннаяПодсказка" id="639"/>
+															</Button>
+															<Button name="ОбъектыМетаданныхОчищатьНеСовпадающиеЭлементыПриЗагрузке" id="708">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ОчищатьНеСовпадающиеЭлементыПриЗагрузке</CommandName>
+																<ExtendedTooltip name="ОбъектыМетаданныхОчищатьНеСовпадающиеЭлементыПриЗагрузкеРасширеннаяПодсказка" id="709"/>
 															</Button>
 															<ButtonGroup name="ОбъектыМетаданныхГруппаСохранениеНастройки" id="623">
 																<Title>
@@ -386,7 +392,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="ОбъектыМетаданныхРасширеннаяПодсказка" id="164"/>
 									<SearchStringAddition name="ОбъектыМетаданныхСтрокаПоиска" id="165">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ОбъектыМетаданных</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -395,7 +400,6 @@
 										<ExtendedTooltip name="ОбъектыМетаданныхСтрокаПоискаРасширеннаяПодсказка" id="167"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="ОбъектыМетаданныхСостояниеПросмотра" id="168">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ОбъектыМетаданных</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -404,7 +408,6 @@
 										<ExtendedTooltip name="ОбъектыМетаданныхСостояниеПросмотраРасширеннаяПодсказка" id="170"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="ОбъектыМетаданныхУправлениеПоиском" id="171">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ОбъектыМетаданных</Item>
 											<Type>SearchControl</Type>
@@ -632,6 +635,20 @@
 												</LabelField>
 											</ChildItems>
 										</ColumnGroup>
+										<PictureField name="ОМКартинкаПолучитьСтатистику" id="642">
+											<DataPath>ОбъектыМетаданных.КартинкаПолучитьСтатистику</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Рассчитать статистику по объекту</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+											<CellHyperlink>true</CellHyperlink>
+											<ContextMenu name="ОМКартинкаПолучитьСтатистикуКонтекстноеМеню" id="643"/>
+											<ExtendedTooltip name="ОМКартинкаПолучитьСтатистикуРасширеннаяПодсказка" id="644"/>
+										</PictureField>
 									</ChildItems>
 								</Table>
 								<UsualGroup name="ГруппаИстория" id="429">
@@ -647,7 +664,6 @@
 											<v8:content>Группа история</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаИсторияРасширеннаяПодсказка" id="430"/>
@@ -717,7 +733,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="РолиРасширеннаяПодсказка" id="330"/>
 									<SearchStringAddition name="РолиСтрокаПоиска" id="331">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Роли</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -726,7 +741,6 @@
 										<ExtendedTooltip name="РолиСтрокаПоискаРасширеннаяПодсказка" id="333"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="РолиСостояниеПросмотра" id="334">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Роли</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -735,7 +749,6 @@
 										<ExtendedTooltip name="РолиСостояниеПросмотраРасширеннаяПодсказка" id="336"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="РолиУправлениеПоиском" id="337">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Роли</Item>
 											<Type>SearchControl</Type>
@@ -829,7 +842,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="ПользователиРасширеннаяПодсказка" id="352"/>
 									<SearchStringAddition name="ПользователиСтрокаПоиска" id="353">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Пользователи</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -838,7 +850,6 @@
 										<ExtendedTooltip name="ПользователиСтрокаПоискаРасширеннаяПодсказка" id="355"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="ПользователиСостояниеПросмотра" id="356">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Пользователи</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -847,7 +858,6 @@
 										<ExtendedTooltip name="ПользователиСостояниеПросмотраРасширеннаяПодсказка" id="358"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="ПользователиУправлениеПоиском" id="359">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>Пользователи</Item>
 											<Type>SearchControl</Type>
@@ -936,7 +946,6 @@
 										</v8:item>
 									</ToolTip>
 									<Group>AlwaysHorizontal</Group>
-									<Behavior>Usual</Behavior>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаВыполнениеТерминалаРасширеннаяПодсказка" id="309"/>
@@ -1113,7 +1122,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="БитыеСсылкиРасширеннаяПодсказка" id="205"/>
 									<SearchStringAddition name="БитыеСсылкиСтрокаПоиска" id="206">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>БитыеСсылки</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -1122,7 +1130,6 @@
 										<ExtendedTooltip name="БитыеСсылкиСтрокаПоискаРасширеннаяПодсказка" id="208"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="БитыеСсылкиСостояниеПросмотра" id="209">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>БитыеСсылки</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -1131,7 +1138,6 @@
 										<ExtendedTooltip name="БитыеСсылкиСостояниеПросмотраРасширеннаяПодсказка" id="211"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="БитыеСсылкиУправлениеПоиском" id="212">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>БитыеСсылки</Item>
 											<Type>SearchControl</Type>
@@ -1263,7 +1269,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="НайденныеДанныеРасширеннаяПодсказка" id="529"/>
 									<SearchStringAddition name="НайденныеДанныеСтрокаПоиска" id="530">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>НайденныеДанные</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -1272,7 +1277,6 @@
 										<ExtendedTooltip name="НайденныеДанныеСтрокаПоискаРасширеннаяПодсказка" id="532"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="НайденныеДанныеСостояниеПросмотра" id="536">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>НайденныеДанные</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -1281,7 +1285,6 @@
 										<ExtendedTooltip name="НайденныеДанныеСостояниеПросмотраРасширеннаяПодсказка" id="538"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="НайденныеДанныеУправлениеПоиском" id="533">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>НайденныеДанные</Item>
 											<Type>SearchControl</Type>
@@ -1376,7 +1379,7 @@
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Группа права доступа</v8:content>
+									<v8:content>Права доступа</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
@@ -1431,7 +1434,6 @@
 									</AutoCommandBar>
 									<ExtendedTooltip name="ТекущиеИндексыРасширеннаяПодсказка" id="185"/>
 									<SearchStringAddition name="ТекущиеИндексыСтрокаПоиска" id="186">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ТекущиеИндексы</Item>
 											<Type>SearchStringRepresentation</Type>
@@ -1440,7 +1442,6 @@
 										<ExtendedTooltip name="ТекущиеИндексыСтрокаПоискаРасширеннаяПодсказка" id="188"/>
 									</SearchStringAddition>
 									<ViewStatusAddition name="ТекущиеИндексыСостояниеПросмотра" id="189">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ТекущиеИндексы</Item>
 											<Type>ViewStatusRepresentation</Type>
@@ -1449,7 +1450,6 @@
 										<ExtendedTooltip name="ТекущиеИндексыСостояниеПросмотраРасширеннаяПодсказка" id="191"/>
 									</ViewStatusAddition>
 									<SearchControlAddition name="ТекущиеИндексыУправлениеПоиском" id="192">
-										<Enabled>false</Enabled>
 										<AdditionSource>
 											<Item>ТекущиеИндексы</Item>
 											<Type>SearchControl</Type>
@@ -1500,20 +1500,93 @@
 								</Table>
 							</ChildItems>
 						</Page>
-						<Page name="ПоПользователям" id="60">
+						<Page name="ГруппаПротокол" id="645">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>По пользователям</v8:content>
+									<v8:content>Протокол</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>По пользователям</v8:content>
-								</v8:item>
-							</ToolTip>
-							<ExtendedTooltip name="ПоПользователямРасширеннаяПодсказка" id="199"/>
+							<ExtendedTooltip name="ГруппаПротоколРасширеннаяПодсказка" id="646"/>
+							<ChildItems>
+								<Table name="Протокол" id="669">
+									<Representation>Tree</Representation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<Header>false</Header>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Протокол</DataPath>
+									<ContextMenu name="ПротоколКонтекстноеМеню" id="670"/>
+									<AutoCommandBar name="ПротоколКоманднаяПанель" id="671">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ПротоколРасширеннаяПодсказка" id="672"/>
+									<SearchStringAddition name="ПротоколСтрокаПоиска" id="673">
+										<AdditionSource>
+											<Item>Протокол</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПротоколСтрокаПоискаКонтекстноеМеню" id="674"/>
+										<ExtendedTooltip name="ПротоколСтрокаПоискаРасширеннаяПодсказка" id="675"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ПротоколСостояниеПросмотра" id="676">
+										<AdditionSource>
+											<Item>Протокол</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПротоколСостояниеПросмотраКонтекстноеМеню" id="677"/>
+										<ExtendedTooltip name="ПротоколСостояниеПросмотраРасширеннаяПодсказка" id="678"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ПротоколУправлениеПоиском" id="679">
+										<AdditionSource>
+											<Item>Протокол</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ПротоколУправлениеПоискомКонтекстноеМеню" id="680"/>
+										<ExtendedTooltip name="ПротоколУправлениеПоискомРасширеннаяПодсказка" id="681"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ПротоколГруппа" id="697">
+											<DataPath>Протокол.Группа</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПротоколГруппаКонтекстноеМеню" id="698"/>
+											<ExtendedTooltip name="ПротоколГруппаРасширеннаяПодсказка" id="699"/>
+										</InputField>
+										<ColumnGroup name="ПротоколГруппаСообщение" id="706">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа сообщение</v8:content>
+												</v8:item>
+											</Title>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="ПротоколГруппаСообщениеРасширеннаяПодсказка" id="707"/>
+											<ChildItems>
+												<PictureField name="ПротоколВажность" id="691">
+													<DataPath>Протокол.Важность</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>1</Width>
+													<AutoMaxWidth>false</AutoMaxWidth>
+													<AutoMaxHeight>false</AutoMaxHeight>
+													<ContextMenu name="ПротоколВажностьКонтекстноеМеню" id="692"/>
+													<ExtendedTooltip name="ПротоколВажностьРасширеннаяПодсказка" id="693"/>
+												</PictureField>
+												<LabelField name="ПротоколТекст" id="694">
+													<DataPath>Протокол.Текст</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<AutoCellHeight>true</AutoCellHeight>
+													<HorizontalStretch>true</HorizontalStretch>
+													<VerticalStretch>true</VerticalStretch>
+													<ContextMenu name="ПротоколТекстКонтекстноеМеню" id="695"/>
+													<ExtendedTooltip name="ПротоколТекстРасширеннаяПодсказка" id="696"/>
+												</LabelField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</Table>
+							</ChildItems>
 						</Page>
 					</ChildItems>
 				</Pages>
@@ -1536,7 +1609,7 @@
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(с) Агибалов Сергей (2015-2024)</v8:content>
+							<v8:content>(с) Агибалов Сергей (2011-2026)</v8:content>
 						</v8:item>
 					</Title>
 					<ContextMenu name="ДекорацияПодписьКонтекстноеМеню" id="225"/>
@@ -1944,6 +2017,32 @@
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 				</Column>
+				<Column name="ПолноеИмяДляРоли" id="19">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное имя для роли</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="КартинкаПолучитьСтатистику" id="60">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Картинка получить статистику</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="РолиОбъектовМетаданных" id="6">
@@ -2123,7 +2222,7 @@
 					</Title>
 					<Type>
 						<v8:Type>v8:ValueListType</v8:Type>
-						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Column>
 				<Column name="ИмяПоля" id="3">
@@ -2149,7 +2248,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Column>
 				<Column name="Раздел" id="6">
@@ -2801,7 +2900,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
 					</Type>
 				</Column>
 				<Column name="Метаданные" id="35">
@@ -3004,6 +3103,77 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
+		</Attribute>
+		<Attribute name="Протокол" id="61">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Протокол</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Важность" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Важность</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>v8ui:Picture</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Текст" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Текст</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Группа" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Уровень" id="62">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уровень</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -3687,6 +3857,93 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ЗапуститьУдалениеПомеченныхБезКонтроля</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ВыполнитьОчисткуОбъекта" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить очистку объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.DeleteDirectly</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыполнитьОчисткуОбъекта</Action>
+		</Command>
+		<Command name="ОчищатьНеВыгружаемыеСсылки" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очищать не выгружаемые ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очищать не выгружаемые ссылки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.FilterByType</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОчищатьНеВыгружаемыеСсылки</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ВыгружатьПомеченныеНаУдаление" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать помеченные на удаление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать помеченные на удаление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MarkToDelete</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ВыгружатьПомеченныеНаУдаление</Action>
+		</Command>
+		<Command name="НайтиБитыеСсылкиПоОбъекту" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Найти битые ссылки по объекту</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.DataSearch</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>НайтиБитыеСсылкиПоОбъекту</Action>
+		</Command>
+		<Command name="УстановитьРежимАнализаТаблиц1" id="46">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ таблиц</v8:content>
+				</v8:item>
+			</Title>
+		</Command>
+		<Command name="ОчищатьНеСовпадающиеЭлементыПриЗагрузке" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очищать не совпадающие элементы при загрузке</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>StdPicture.QueryWizardReplaceTable</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОчищатьНеСовпадающиеЭлементыПриЗагрузке</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
