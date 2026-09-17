@@ -87,6 +87,11 @@
 						<CommandName>Form.Command.ПоказатьВСписке</CommandName>
 						<ExtendedTooltip name="ФормаПоказатьВСпискеРасширеннаяПодсказка" id="28"/>
 					</Button>
+					<Button name="ФормаОткрытьФормуЭлемента" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ОткрытьФормуЭлемента</CommandName>
+						<ExtendedTooltip name="ФормаОткрытьФормуЭлементаРасширеннаяПодсказка" id="58"/>
+					</Button>
 				</ChildItems>
 			</ButtonGroup>
 			<Button name="ФормаНайтиОбъект" id="47">
@@ -437,6 +442,26 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>НайтиОбъект</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ОткрытьФормуЭлемента" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть форму элемента</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть форму элемента</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Form</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОткрытьФормуЭлемента</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
